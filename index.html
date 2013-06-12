@@ -1,0 +1,96 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<!-- Mirrored from vallandingham.me/vis/gates/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 15 May 2013 23:21:15 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>New York City Budget Visualization</title>
+  
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+		
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+<script type="text/javascript">
+setTimeout(function() {
+    var headID = document.getElementsByTagName("head")[0];         
+    var newScript = document.createElement('script');
+    newScript.type = 'text/coffeescript';
+    newScript.src = 'coffee/vis.coffee';
+    headID.appendChild(newScript);
+}, 5000);
+
+</script>
+  
+</head>
+
+<body>
+<script type="text/coffeescript" src="coffee/vis2.coffee"></script>
+
+
+  <div id="container" class="container">
+    <header>
+    <h1>New York City Budget Visualization</h1>
+	NYC's $74 billion 2013 Modified Budget, in the style of <a href = "http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=0">Shan Carter's Federal Budget Vizualization in the New York Times</a>
+    </header>
+    <div id="main" role="main">
+      
+	   <div id="vis2"><div class="titles">Revenues</div></div>
+      <div id="vis"><div class="titles">Expenditures</div></div>
+	 
+    </div>
+    <footer>
+	<img src = "img/colors.png"><br>
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.chriswhong.com/nycbudget" data-text="NYC's $74B Budget, Visualized" data-via="chris_whong">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	<br><br>
+	<p>Visualization by <a href = "https://twitter.com/chris_whong">@chris_whong</a><img src = "img/twitter_bird.png"></p>
+	<p>Created at <a href = "http://www.meetup.com/betanyc/">BetaNYC's Civic Hack Nights</a></p>
+    <p>Made with <a href = "http://vallandingham.me/bubble_charts_in_d3.html">Jim Vallandingham's Excellent Tutorial</a> </p>
+	<p>All data from NYC's Open Budget Portal at <a href = "http://www.checkbooknyc.com">www.checkbooknyc.com</a>.  Open Data FTW!</p>
+	<p><a href = "http://www.checkbooknyc.com/budget/yeartype/B/year/114?expandBottomContURL=/panel_html/budget_agency_perecent_difference_transactions/budget/agency_details/dtsmnid/560/yeartype/B/year/114">Expenditure Data</a> | <a href = "http://www.checkbooknyc.com/revenue/yeartype/B/year/114">Revenue Data</a></p>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <script src="js/CustomTooltip.js"></script>
+  <script src="js/libs/coffee-script.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="js/libs/d3.csv.min.js"></script>
+  <script src="js/libs/d3.layout.min.js"></script>
+  <script src="js/libs/d3.geom.min.js"></script>
+ 
+
+
+ 
+
+
+
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+
+<!-- Mirrored from vallandingham.me/vis/gates/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 15 May 2013 23:21:21 GMT -->
+</html>
