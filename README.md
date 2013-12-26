@@ -1,7 +1,7 @@
 nycbudget
 =========
 
-Available at http://www.chriswhong.com/nycbudget
+Available at http://www.chriswhong.com/projects/nycbudget
 
 Using Jim Vallandingham's d3 tutorial: http://vallandingham.me/bubble_charts_in_d3.html
 
